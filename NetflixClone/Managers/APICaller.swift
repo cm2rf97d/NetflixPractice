@@ -8,8 +8,11 @@
 import Foundation
 
 struct Constants {
-    static let API_KEY: String = { Your_API_KEY}
+    // go there to register API KEY: https://www.themoviedb.org/?language=zh-TW
+    static let API_KEY: String = { Your_API_KEY }
     static let baseUrl: String = "https://api.themoviedb.org"
+    
+    // go there to rigister Youtube API KEY: https://console.cloud.google.com/home/dashboard?
     static let YoutubeAPI_KEY = { Your_Youtube_API_KEY }
     static let YoutubeBaseURL = "https://youtube.googleapis.com/youtube/v3/search?"
 }
